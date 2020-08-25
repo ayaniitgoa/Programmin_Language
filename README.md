@@ -2,7 +2,7 @@
 
 ### Currently working on/completed:
 
-1. Make a Lexer : A lexer takes an input and converts it into tokens (symbols, string, parentheses, brackets, commas, etc.).
+1. Lexer : A lexer takes an input and converts it into tokens (symbols, string, parentheses, brackets, commas, etc.).
    - For eg.
      ```bash
       command >> 1 + 2
@@ -17,8 +17,9 @@
       [FLOAT: 2.5, MUL, FLOAT: 2.5]
      ```
      ```bash
-      command >> 2 * d
-      Invalid Character found.: 'd'
+      command >> 7 - $
+      Invalid Character found: '$'
+      File <stdin>, line 1
      ```
 
 #### Licensed under [MIT License](License).
