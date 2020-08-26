@@ -17,7 +17,7 @@
       [FLOAT: 2.5, MUL, FLOAT: 2.5]
      ```
      ```bash
-      command >> 7 - $
+      command >> 8 - $
       Invalid Character found: '$'
       File <stdin>, line 1
      ```
