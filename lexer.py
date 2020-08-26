@@ -6,7 +6,7 @@ _PLUS = 'PLUS'
 _SUBTRACT = 'MINUS'
 _DIVIDE = 'DIV'
 _MULTIPLY = 'MUL'
-_LPARANTHENSIS = 'LPAREN'
+_LPARENTHENSES = 'LPAREN'
 _RPARENTHENSES = 'RPAREN'
 
 # Constants
@@ -107,9 +107,9 @@ class Lexer:
                 tokens.append(Token(_DIVIDE))
                 self.advance()
             elif self.curr_char == '(':
-                tokens.append(Token(_LPARANTHENSIS))
+                tokens.append(Token(_LPARENTHENSES))
                 self.advance()
-            elif self.curr_char == '/':
+            elif self.curr_char == ')':
                 tokens.append(Token(_RPARENTHENSES))
                 self.advance()
             else:
